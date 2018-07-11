@@ -1,0 +1,101 @@
+#title {
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    width: 45%;
+    top: 110px;
+    left: 750px;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgba(236,236,236, 0.8);
+}
+/* Typewriter */
+#typeWriter {
+    overflow: hidden;
+    margin: 0 auto;
+    border-right: 1px solid transparent;
+    margin: 0 auto;
+    white-space: nowrap;
+    animation: 
+        typing 3.0s steps(40, end),
+        blink .75s step-end infinite;
+}
+@keyframes typing {
+    from {width: 0}
+    to{width: 100%}
+}
+@keyframes blink {
+    from, to {border-color: transparent}
+    50% {border-color: transparent}
+}
+/* TypeWriter End */
+.intro {
+    border: 1px solid;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px; 
+    position: relative;
+    top: 150px;
+    left: 750px;
+    font-size: 35px;
+    width: 45%;
+    height: 530px;
+    background-color: rgba(236,236,236, 0.8);
+}
+.caption {
+    text-align: left;
+    font-size: 50px;
+    position: relative;
+    top: -1140px;
+    left: 58px;
+}
+.imageBox {
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    height: 660px;
+    width: 45%;
+    top: -530px;
+    right: -40px;
+    background-color: rgba(236,236,236, 0.8);
+}
+/* slideshow */ 
+#slideshow {
+    position: relative;
+    top: -1180px;
+    right: 350px;
+    border-radius: 30px;
+    overflow: hidden;
+    height: 510px;
+    width: 628px;
+    margin: 0 auto;
+  }
+.wrap {
+    width: 2912px;
+    animation: slide 18s ease infinite;
+}
+.slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+  }
+.slide:nth-child(1) {
+    background: url(home-1.jpg)
+}
+.slide:nth-child(2) {
+    background: url(home-2.jpg)
+}
+.slide:nth-child(3) {
+    background: url(home-3.jpg)
+}
+@keyframes slide {
+        20% {margin-left: 0px;}
+        30% {margin-left: -728px;}
+        50% {margin-left: -728px;}
+        60% {margin-left: -1456px;}
+        70% {margin-left: -1456px;}
+        80% {margin-left: -2184px;}
+        90% {margin-left: -2184px;}
+}
