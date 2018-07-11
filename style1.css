@@ -1,5 +1,5 @@
 /* paper daisy */
-@font-face {
+/*  @font-face {
     font-family: firstFont;
     src: url(../Portfolio/Fonts/a-little-sunshine/a-lil-sun.ttf)
 }
@@ -10,7 +10,8 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    font-family: firstFont;
+    font-family: 'Amatic SC', cursive;
+  /*  font-family: firstFont; */
 }
 /* all for nav bar */
 *{margin: 0px; padding: 0px;}
